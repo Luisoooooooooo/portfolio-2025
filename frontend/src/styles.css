@@ -11,3 +11,7 @@ body {
     font-family: 'Manrope', sans-serif;
     background-color: #BBC0C4;
 }
+
+header {
+    z-index: 9999;
+}
