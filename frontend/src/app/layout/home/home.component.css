@@ -25,7 +25,7 @@
 
 
 .section-content {
-    margin: 0px 24px;
+    margin: 0px 2.5%;
 }
 
 /* Borde de contenedores con clase .border */
@@ -33,7 +33,6 @@
     display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   background: #A6A6A6;
-  height: 100vh;
 }
 
 .section-content--col-1 { grid-column: span 1; }
@@ -53,7 +52,7 @@
 .section-content .border::before {
   content: "";
   position: absolute;
-  z-index: 0;
+
   top: 1px;
   bottom: 1px;
   left: 0;
@@ -77,5 +76,5 @@
 
 .section-content .border > * { 
     position: relative;
-    z-index: 1;
+
 }

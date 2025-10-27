@@ -12,6 +12,7 @@ body {
     background-color: #BBC0C4;
 }
 
-header {
+
+.header {
     z-index: 9999;
 }
