@@ -3,6 +3,8 @@
     height: 60px;
     display: flex;
     flex-direction: row;
+    padding: 1% 2.5%;
+    position: fixed;
     a {
         color: white;
         text-decoration: none;
